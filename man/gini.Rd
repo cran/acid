@@ -17,15 +17,12 @@ gini(x)
 }
 }
 
-\value{ returns the Gini coefficient.
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+\value{ 
+\item{Gini }{the Gini coefficient for the sample.}
+\item{bcGini }{the bias-corrected Gini coefficient for the sample.}
 }
 \references{
-Cowell, F.A. (2000): Measurement of Inequality, in: Atkinson and Bourguignon (eds.), Handbook of Income Distribution, pp. 1-86, Elsevier, Amsterdam.
+Cowell, F.A. (2000): Measurement of Inequality, in: Atkinson and Bourguignon (eds.), Handbook of Income Distribution, pp. 87-166, Elsevier, Amsterdam.
 %% ~put references to the literature/web site here ~
 }
 \author{ Alexander Sohn

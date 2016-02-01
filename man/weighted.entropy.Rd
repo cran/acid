@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-weighted.entropy(x, w = NULL, parameter = 1)
+weighted.entropy(x, w = NULL, alpha = 1)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -18,7 +18,7 @@ weighted.entropy(x, w = NULL, parameter = 1)
   \item{w}{ a vector of weights.
 %%     ~~Describe \code{w} here~~
 }
-  \item{parameter}{ the parameter for the generalised entropy family of measures, denoted by alpha by Cowell (2000). Note that this parameter notation differs from the notation used in the ineq package.
+  \item{alpha}{ the parameter for the generalised entropy family of measures, denoted by alpha by Cowell (2000). Note that this parameter notation differs from the notation used in the ineq package.
 
 %%     ~~Describe \code{parameter} here~~
 }

@@ -8,14 +8,14 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-entropy(x, parameter = 1)
+entropy(x, alpha = 1)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{ a vector of observations.
 %%     ~~Describe \code{x} here~~
 }
-  \item{parameter}{ the parameter for the generalised entropy family of measures, denoted by alpha by Cowell (2000). Note that this parameter notation differs from the notation used in the ineq package.
+  \item{alpha}{ the parameter for the generalised entropy family of measures, denoted by alpha by Cowell (2000). Note that this parameter notation differs from the notation used in the ineq package.
 %%     ~~Describe \code{parameter} here~~
 }
 }

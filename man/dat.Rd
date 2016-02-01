@@ -31,6 +31,6 @@ Sohn, A., Klein, N., Kneib. T. (2014): A New Semiparametric Approach to Analysin
 }
 \examples{
 data(dat)
-## maybe str(dat) ; plot(dat) ...
+str(dat)
 }
 \keyword{datasets}
